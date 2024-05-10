@@ -42,3 +42,8 @@ git commit -m "Initial commit"
 git status
 git add .
 git commit -m "feat: start of random guess script"
+pg_dump -cC --inserts -U freecodecamp number_guess > number_guess.sql
+pg_dump -cC --inserts -U freecodecamp number_guess > number_guess.sql
+git status
+git add .
+git commit -m "feat: dumping the database"
