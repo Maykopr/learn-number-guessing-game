@@ -288,3 +288,8 @@ __vsc_prompt_cmd_original
 ./number_guess.sh
 ./number_guess.sh
 ./number_guess.sh
+./number_guess.sh
+./number_guess.sh
+git status
+git add .
+git commit -m "fix: function GUESS fixed"
